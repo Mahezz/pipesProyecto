@@ -14,6 +14,9 @@ export class AppComponent {
   salario:number = 1234.5
   fecha: Date = new Date
   nombre2:string = "AnGeL ToRReS MalDoNADO"
+  videoUrl:string = "https://www.youtube.com/embed/QwqQDq_0wvE?si=m90xsaAt3kt_UV24"
+  activar:boolean = false
+
   valorPromesa = new Promise<string>((resolve) => {
     setTimeout(() => {
       resolve('Los datos llegaron correctamente')
